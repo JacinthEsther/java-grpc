@@ -19,12 +19,18 @@
         <dependency>
             <groupId>net.devh</groupId>
             <artifactId>grpc-server-spring-boot-starter</artifactId>
-            <version>2.13.0.RELEASE</version>
+            <version>2.13.1.RELEASE</version>
         </dependency>
         <dependency>
             <artifactId>springgrpc</artifactId>
             <groupId>com.example</groupId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>proto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
